@@ -1,0 +1,1792 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Stats-Dashboard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-21 16:54+0100\n"
+"PO-Revision-Date: 2012-05-21 17:19+0100\n"
+"Last-Translator: Dave Ligthart <info@daveligthart.com>\n"
+"Language-Team: daveligthart.com <info@daveligthart.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+"X-Poedit-SearchPath-2: ../view\n"
+"X-Poedit-SearchPath-3: ../classes\n"
+"X-Poedit-SearchPath-4: ../classes/action\n"
+"X-Poedit-SearchPath-5: ../classes/util\n"
+"X-Poedit-SearchPath-6: ../classes/widget\n"
+"X-Poedit-SearchPath-7: ../view/admin\n"
+"X-Poedit-SearchPath-8: ../view/wp-stats-dashboard\n"
+
+#: ../classes/ajax.php:17
+msgid "You need to be administrator to view this content"
+msgstr ""
+
+#: ../classes/ajax.php:196
+msgid "connected"
+msgstr ""
+
+#: ../classes/ajax.php:205
+#: ../classes/ajax.php:209
+msgid "Reload"
+msgstr ""
+
+#: ../classes/ajax.php:240
+msgid "Views"
+msgstr ""
+
+#: ../classes/ajax.php:262
+msgid "Not available for your domain"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:179
+msgid "Couldn't activate WP-Stats-Dashboard: CURL extension not found. CURL is required to be installed on your server. Please ask your hosting provider to install PHP CURL for you."
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:219
+msgid "WPSD"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:223
+msgid "Rpc"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:231
+#: ../classes/action/WPSDAdminAction.php:232
+msgid "Settings"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:239
+#: ../classes/action/WPSDAdminAction.php:240
+msgid "Profile finder"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:247
+#: ../classes/action/WPSDAdminAction.php:248
+msgid "Export"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:264
+msgid "Dashboard Stats"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:420
+msgid "Read more"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:592
+msgid "Rendering of stats failed."
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:698
+#: ../classes/action/WPSDAdminAction.php:742
+#: ../classes/action/WPSDAdminAction.php:793
+#: ../classes/action/WPSDAdminAction.php:839
+#: ../classes/action/WPSDAdminAction.php:869
+#: ../classes/action/WPSDAdminAction.php:928
+msgid "Widget disabled check"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:698
+#: ../classes/action/WPSDAdminAction.php:742
+#: ../classes/action/WPSDAdminAction.php:793
+#: ../classes/action/WPSDAdminAction.php:839
+#: ../classes/action/WPSDAdminAction.php:869
+#: ../classes/action/WPSDAdminAction.php:929
+msgid "settings"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:947
+msgid "Rank"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:948
+msgid "WPSD Score"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:949
+msgid "Author"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:950
+msgid "Post Count"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:951
+msgid "Comments Received"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:952
+msgid "Comments Placed"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:953
+msgid "Klout Score"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:954
+msgid "Twitter Ratio"
+msgstr ""
+
+#: ../classes/action/WPSDAdminAction.php:1015
+msgid "No authors found with comments placed"
+msgstr ""
+
+#: ../classes/action/WPSDFrontEndAction.php:329
+msgid ""
+"The traffic rank is based on three months of aggregated historical traffic data from millions \n"
+"\t\t\t\t\tof Alexa Toolbar users and data obtained from other, diverse traffic data sources, and is a combined measure of \n"
+"\t\t\t\t\tpage views and users (reach)."
+msgstr ""
+
+#: ../classes/action/WPSDFrontEndAction.php:336
+msgid ""
+"PageRank is a numeric value that represents how important a page is on the web. \n"
+"\t\t\t\t\tGoogle figures that when one page links to another page, it is effectively casting a vote for the other page. \n"
+"\t\t\t\t\tThe more votes that are cast for a page, the more important the page must be."
+msgstr ""
+
+#: ../classes/action/WPSDFrontEndAction.php:342
+msgid "Engagement"
+msgstr ""
+
+#: ../classes/action/WPSDFrontEndAction.php:343
+msgid "The number of comments added to your blog."
+msgstr ""
+
+#: ../classes/action/WPSDFrontEndAction.php:348
+msgid "Number of search results in the Microsoft Bing search engine."
+msgstr ""
+
+#: ../classes/action/WPSDFrontEndAction.php:353
+msgid "The number of google backlinks. A backlink is any link received by a web page from another web page. The number of backlinks is one indication of the popularity or importance of that website or page in search engines."
+msgstr ""
+
+#: ../classes/action/WPSDFrontEndAction.php:358
+msgid "The number of Twitter followers. Twitter is a real-time information network that connects you to the latest stories, ideas, opinions and news about what you find interesting"
+msgstr ""
+
+#: ../classes/action/WPSDFrontEndAction.php:363
+msgid "The number of Facebook likes. Facebook is a social networking service."
+msgstr ""
+
+#: ../classes/action/WPSDFrontEndAction.php:368
+msgid "The number of LinkedIn connections"
+msgstr ""
+
+#: ../classes/action/WPSDFrontEndAction.php:373
+msgid ""
+"The Klout Score measures influence based on your ability to drive action. \n"
+"\t\t\t\t\tEvery time you create content or engage you influence others."
+msgstr ""
+
+#: ../classes/action/WPSDFrontEndAction.php:379
+msgid "The number of video views on Youtube. YouTube allows billions of people to discover, watch and share originally-created videos."
+msgstr ""
+
+#: ../classes/action/WPSDFrontEndAction.php:384
+msgid "The number followers on Pinterest. Pinterest is a virtual pinboard. Pinterest allows you to organize and share all the beautiful things you find on the web. You can browse pinboards created by other people to discover new things and get inspiration from people who share your interests."
+msgstr ""
+
+#: ../classes/action/WPSDFrontEndAction.php:389
+msgid "The number followers on Google Plus. Google Plus aims to make sharing on the web more like sharing in real life. "
+msgstr ""
+
+#: ../classes/util/WPSDUtils.php:36
+msgid "CURL extension not installed:"
+msgstr ""
+
+#: ../classes/util/WPSDUtils.php:37
+msgid "you must have CURL extension enabled in your php configuration"
+msgstr ""
+
+#: ../classes/widget/WPSDAuthorWidget.php:18
+msgid "Displays the top 5 list of your blog's most popular authors"
+msgstr ""
+
+#: ../classes/widget/WPSDAuthorWidget.php:20
+msgid "WPSD - Top 5 Authors"
+msgstr ""
+
+#: ../classes/widget/WPSDAuthorWidget.php:65
+#: ../classes/widget/WPSDMetricsWidget.php:65
+#: ../classes/widget/WPSDMiniGraphWidget.php:46
+#: ../classes/widget/WPSDSocialProfilesWidget.php:68
+#: ../classes/widget/WPSDTotalViewsWidget.php:51
+msgid "Title:"
+msgstr ""
+
+#: ../classes/widget/WPSDAuthorWidget.php:67
+#: ../classes/widget/WPSDMetricsWidget.php:67
+#: ../classes/widget/WPSDMiniGraphWidget.php:48
+#: ../classes/widget/WPSDSocialProfilesWidget.php:70
+#: ../classes/widget/WPSDTotalViewsWidget.php:53
+msgid "Description:"
+msgstr ""
+
+#: ../classes/widget/WPSDAuthorWidget.php:175
+msgid "Posts"
+msgstr ""
+
+#: ../classes/widget/WPSDAuthorWidget.php:181
+msgid "Comments In"
+msgstr ""
+
+#: ../classes/widget/WPSDAuthorWidget.php:187
+msgid "Comments Out"
+msgstr ""
+
+#: ../classes/widget/WPSDAuthorWidget.php:216
+msgid "No authors found with comments placed..."
+msgstr ""
+
+#: ../classes/widget/WPSDMetricsWidget.php:18
+msgid "Displays your social metrics"
+msgstr ""
+
+#: ../classes/widget/WPSDMetricsWidget.php:20
+msgid "WPSD - Social Metrics"
+msgstr ""
+
+#: ../classes/widget/WPSDMetricsWidget.php:71
+msgid "Enable / Disable Metrics"
+msgstr ""
+
+#: ../classes/widget/WPSDMiniGraphWidget.php:18
+msgid "Show a mini graph displaying your blog's daily views"
+msgstr ""
+
+#: ../classes/widget/WPSDMiniGraphWidget.php:20
+msgid "WPSD - Mini Graph"
+msgstr ""
+
+#: ../classes/widget/WPSDSocialProfilesWidget.php:18
+msgid "Displays your social profiles"
+msgstr ""
+
+#: ../classes/widget/WPSDSocialProfilesWidget.php:20
+msgid "WPSD - Social Profiles"
+msgstr ""
+
+#: ../classes/widget/WPSDSocialProfilesWidget.php:66
+msgid "Use the social profiles widget on your website to extend and optimize your social graph."
+msgstr ""
+
+#: ../classes/widget/WPSDSocialProfilesWidget.php:74
+msgid "Enable Icon Images"
+msgstr ""
+
+#: ../classes/widget/WPSDSocialProfilesWidget.php:76
+msgid "Enabled"
+msgstr ""
+
+#: ../classes/widget/WPSDSocialProfilesWidget.php:79
+msgid "Enable / Disable Profiles"
+msgstr ""
+
+#: ../classes/widget/WPSDSocialProfilesWidget.php:196
+msgid "Visit my"
+msgstr ""
+
+#: ../classes/widget/WPSDSocialProfilesWidget.php:196
+msgid "profile"
+msgstr ""
+
+#: ../classes/widget/WPSDTotalViewsWidget.php:18
+msgid "Displays your blog's total views"
+msgstr ""
+
+#: ../classes/widget/WPSDTotalViewsWidget.php:20
+msgid "WPSD - Total Views"
+msgstr ""
+
+#: ../classes/widget/WPSDTotalViewsWidget.php:49
+msgid "This widget will show your blogs total views."
+msgstr ""
+
+#: ../classes/widget/admin/WPSDAuthorDashboardWidget.php:32
+msgid "Stats - Top 5 Authors"
+msgstr ""
+
+#: ../classes/widget/admin/WPSDAuthorDashboardWidget.php:69
+#: ../classes/widget/admin/WPSDBlogPulseConversationDashboardWidget.php:58
+#: ../classes/widget/admin/WPSDBlogPulseDashboardWidget.php:58
+#: ../classes/widget/admin/WPSDClicksDashboardWidget.php:55
+#: ../classes/widget/admin/WPSDCompeteDashboardWidget.php:58
+msgid "loading"
+msgstr ""
+
+#: ../classes/widget/admin/WPSDBlogPulseConversationDashboardWidget.php:27
+msgid "Stats - BlogPulse.com Conversations"
+msgstr ""
+
+#: ../classes/widget/admin/WPSDBlogPulseConversationDashboardWidget.php:65
+msgid "Track conversations about your blog"
+msgstr ""
+
+#: ../classes/widget/admin/WPSDBlogPulseDashboardWidget.php:27
+msgid "Stats - BlogPulse.com"
+msgstr ""
+
+#: ../classes/widget/admin/WPSDClicksDashboardWidget.php:24
+msgid "Stats - Clicks"
+msgstr ""
+
+#: ../classes/widget/admin/WPSDCompeteDashboardWidget.php:27
+msgid "Stats - Compete.com"
+msgstr ""
+
+#: ../classes/widget/admin/WPSDDashboardWidget.php:33
+msgid "Stats - Views per day"
+msgstr ""
+
+#: ../classes/widget/admin/WPSDOptimizeDashboardWidget.php:24
+#: ../view/admin/admin_dashboard_page.php:158
+msgid "Stats - Optimization Suggestions"
+msgstr ""
+
+#: ../classes/widget/admin/WPSDOverviewDashboardWidget.php:27
+#: ../view/admin/admin_dashboard_page.php:145
+msgid "Stats - Social Media Metrics"
+msgstr ""
+
+#: ../classes/widget/admin/WPSDOverviewDashboardWidget.php:76
+msgid "WPSD_PLUGIN_URL not defined"
+msgstr ""
+
+#: ../classes/widget/admin/WPSDPostViewsDashboardWidget.php:24
+#: ../view/admin/admin_config.php:186
+msgid "Stats - Post views"
+msgstr ""
+
+#: ../classes/widget/admin/WPSDReferrersDashboardWidget.php:24
+#: ../view/admin/admin_config.php:190
+#: ../view/admin/admin_dashboard_page.php:103
+msgid "Stats - Referrers"
+msgstr ""
+
+#: ../classes/widget/admin/WPSDSearchTermsDashboardWidget.php:24
+#: ../view/admin/admin_config.php:198
+#: ../view/admin/admin_dashboard_page.php:117
+msgid "Stats - Search terms"
+msgstr ""
+
+#: ../view/admin/admin_ajax_trend_visualize.php:22
+msgid "day(x), amount(y)"
+msgstr ""
+
+#: ../view/admin/admin_ajax_trend_visualize.php:48
+msgid "Trend"
+msgstr ""
+
+#: ../view/admin/admin_config.php:42
+#: ../view/admin/admin_dashboard_page.php:41
+msgid "WP-Stats-Dashboard Options"
+msgstr ""
+
+#: ../view/admin/admin_config.php:50
+msgid "WordPress.com Username or password is incorrect. Stats will not load. Please create an account at <a href=\"http://www.wordpress.com\" target=\"_blank\" title=\"wordpress.com\">http://www.wordpress.com</a> afterwards use those credentials below."
+msgstr ""
+
+#: ../view/admin/admin_config.php:53
+msgid "Saved"
+msgstr ""
+
+#: ../view/admin/admin_config.php:67
+msgid "wp-content/cache does not exist:"
+msgstr ""
+
+#: ../view/admin/admin_config.php:69
+msgid "please make sure that the \"wp-content/cache\" directory is created"
+msgstr ""
+
+#: ../view/admin/admin_config.php:72
+msgid "please use your ftp browser to navigate to the \"wp-content\" folder and create a directory named \"cache\"."
+msgstr ""
+
+#: ../view/admin/admin_config.php:79
+msgid "wp-content/cache is not writable:"
+msgstr ""
+
+#: ../view/admin/admin_config.php:81
+msgid "please make sure that the \"wp-content/cache\" directory is writable by webserver."
+msgstr ""
+
+#: ../view/admin/admin_config.php:84
+msgid "please use your ftp client to navigate to the \"wp-content\" folder and change file permissions of the \"cache\" folder to (chmod) 777."
+msgstr ""
+
+#: ../view/admin/admin_config.php:91
+msgid "please install the wordpress.com stats plugin and follow the instructions it presents:"
+msgstr ""
+
+#: ../view/admin/admin_config.php:93
+msgid "Please install the Jetpack plugin first"
+msgstr ""
+
+#: ../view/admin/admin_config.php:119
+msgid "Basic Settings"
+msgstr ""
+
+#: ../view/admin/admin_config.php:126
+msgid "Blog ID"
+msgstr ""
+
+#: ../view/admin/admin_config.php:138
+msgid "Install the Jetpack plugin"
+msgstr ""
+
+#: ../view/admin/admin_config.php:139
+msgid "Make sure the Jetpack plugin is installed and configured. Your blog-id will be automatically filled in by this plugin."
+msgstr ""
+
+#: ../view/admin/admin_config.php:143
+msgid "Username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:155
+msgid "WordPress.com Username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:156
+msgid "Enter your WordPress.com username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:160
+msgid "Password"
+msgstr ""
+
+#: ../view/admin/admin_config.php:170
+msgid "WordPress.com Password"
+msgstr ""
+
+#: ../view/admin/admin_config.php:170
+msgid "Enter your WordPress.com password"
+msgstr ""
+
+#: ../view/admin/admin_config.php:174
+msgid "Enabled / Disable <br/> Dashboard Widgets"
+msgstr ""
+
+#: ../view/admin/admin_config.php:182
+msgid "Stats - Overview"
+msgstr ""
+
+#: ../view/admin/admin_config.php:202
+#: ../view/admin/admin_dashboard_page.php:66
+msgid "Stats - Trends"
+msgstr ""
+
+#: ../view/admin/admin_config.php:223
+msgid "Default Trend Graph"
+msgstr ""
+
+#: ../view/admin/admin_config.php:229
+msgid "Default trends graph"
+msgstr ""
+
+#: ../view/admin/admin_config.php:229
+msgid "This graph will be displayed by default in the trends widget."
+msgstr ""
+
+#: ../view/admin/admin_config.php:234
+msgid "Disable widgets on main dashboard page"
+msgstr ""
+
+#: ../view/admin/admin_config.php:239
+msgid "Stats dashboard page"
+msgstr ""
+
+#: ../view/admin/admin_config.php:239
+msgid "The stats widgets will only be visible on the stats dashboard page."
+msgstr ""
+
+#: ../view/admin/admin_config.php:253
+#: ../view/admin/admin_config.php:274
+#: ../view/admin/admin_config.php:390
+#: ../view/admin/admin_config.php:1636
+#: ../view/admin/admin_config.php:1658
+msgid "Save Changes"
+msgstr ""
+
+#: ../view/admin/admin_config.php:260
+msgid "Visibility"
+msgstr ""
+
+#: ../view/admin/admin_config.php:263
+msgid "Select the roles that will be able to view stats."
+msgstr ""
+
+#: ../view/admin/admin_config.php:266
+msgid "Administrator"
+msgstr ""
+
+#: ../view/admin/admin_config.php:267
+msgid "Editor"
+msgstr ""
+
+#: ../view/admin/admin_config.php:269
+msgid "Contributor"
+msgstr ""
+
+#: ../view/admin/admin_config.php:270
+msgid "Subscriber"
+msgstr ""
+
+#: ../view/admin/admin_config.php:280
+msgid "Autopost settings"
+msgstr ""
+
+#: ../view/admin/admin_config.php:338
+#: ../view/admin/admin_config.php:352
+msgid "Posterous username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:353
+msgid "Posterous username. e.g: http://<strong>username</strong>.posterous.com. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:355
+msgid "Posterous"
+msgstr ""
+
+#: ../view/admin/admin_config.php:362
+msgid "Posterous Post Email"
+msgstr ""
+
+#: ../view/admin/admin_config.php:375
+msgid "Posterous Post By Email."
+msgstr ""
+
+#: ../view/admin/admin_config.php:376
+msgid " Make sure to add"
+msgstr ""
+
+#: ../view/admin/admin_config.php:377
+msgid ""
+" to your posterous contact settings to allow posting. \n"
+"                  \t\tSpread your content across twitter, facebook, posterous.\n"
+"                  \t\tE.g abcdef@posterous.com. \n"
+"                  \t\tThe post excerpt is used for the autopost content. \n"
+"                  \t\tWhen writing a post please manually add an excerpt."
+msgstr ""
+
+#: ../view/admin/admin_config.php:383
+msgid "Posterous contact settings"
+msgstr ""
+
+#: ../view/admin/admin_config.php:396
+msgid "Profile Settings"
+msgstr ""
+
+#: ../view/admin/admin_config.php:401
+msgid "Use <a href=\"?page=wpsd_profile_finder\">the profile finder</a> to quickly retrieve and save your profiles."
+msgstr ""
+
+#: ../view/admin/admin_config.php:411
+#: ../view/admin/admin_config.php:425
+msgid "Twitter username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:426
+msgid "Twitter username for twitter socials metrics in the overview widget. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:428
+msgid "Twitter"
+msgstr ""
+
+#: ../view/admin/admin_config.php:436
+#: ../view/admin/admin_config.php:449
+msgid "LinkedIn username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:450
+msgid "LinkedIn username for connection count in the overview widget. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:452
+msgid "LinkedIn"
+msgstr ""
+
+#: ../view/admin/admin_config.php:459
+msgid "LinkedIn Company username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:473
+msgid "LinkedIn company username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:474
+msgid "Company username. e.g: http://www.linkedin.com/company/<strong>company-name</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:476
+msgid "LinkedIn Company"
+msgstr ""
+
+#: ../view/admin/admin_config.php:484
+msgid "FeedBurner"
+msgstr ""
+
+#: ../view/admin/admin_config.php:498
+msgid "Feedburner url"
+msgstr ""
+
+#: ../view/admin/admin_config.php:499
+msgid "Feedburner url e.g: <strong>http://feeds.feedburner.com/username</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:509
+msgid "Bit.ly username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:522
+#: ../view/admin/admin_config.php:525
+msgid "Bit.ly"
+msgstr ""
+
+#: ../view/admin/admin_config.php:523
+msgid "Bit.ly username for click stats. API Key required. Case sensitive. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:533
+#: ../view/admin/admin_config.php:547
+#: ../view/admin/admin_config.php:550
+msgid "Bit.ly api key"
+msgstr ""
+
+#: ../view/admin/admin_config.php:548
+msgid "Bit.ly api key for click stats. Case sensitive."
+msgstr ""
+
+#: ../view/admin/admin_config.php:558
+msgid "Last.fm username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:572
+#: ../view/admin/admin_config.php:575
+msgid "Last.fm"
+msgstr ""
+
+#: ../view/admin/admin_config.php:573
+msgid "Last.fm username for friend stats. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:585
+msgid "Facebook fan page id"
+msgstr ""
+
+#: ../view/admin/admin_config.php:598
+#: ../view/admin/admin_config.php:601
+msgid "Facebook"
+msgstr ""
+
+#: ../view/admin/admin_config.php:599
+msgid "Facebook page ID. (note: NOT the full url, only the id) e.g:<br/>http://www.facebook.com/pages/wp-stats-dashboard/<strong>123487341019112</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:610
+msgid "Flickr username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:622
+#: ../view/admin/admin_config.php:625
+msgid "Flickr"
+msgstr ""
+
+#: ../view/admin/admin_config.php:623
+msgid "Flickr username e.g: http://www.flickr.com/photos/<strong>username</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:634
+msgid "Diigo profile name"
+msgstr ""
+
+#: ../view/admin/admin_config.php:647
+#: ../view/admin/admin_config.php:650
+msgid "Diigo"
+msgstr ""
+
+#: ../view/admin/admin_config.php:648
+msgid "Diigo profile name. e.g: http://www.diigo.com/profile/<strong>username</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:659
+#: ../view/admin/admin_config.php:671
+#: ../view/admin/admin_config.php:675
+msgid "Brazen Careerist"
+msgstr ""
+
+#: ../view/admin/admin_config.php:672
+msgid "Brazen careerist profile name. e.g: http://www.brazencareerist.com/profile/<strong>username</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:683
+msgid "Newsvine profile name"
+msgstr ""
+
+#: ../view/admin/admin_config.php:695
+#: ../view/admin/admin_config.php:698
+msgid "Newsvine"
+msgstr ""
+
+#: ../view/admin/admin_config.php:696
+msgid "Newsvine profile name. e.g: http://<strong>username</strong>.newsvine.com/. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:706
+msgid "Youtube username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:719
+#: ../view/admin/admin_config.php:722
+msgid "Youtube"
+msgstr ""
+
+#: ../view/admin/admin_config.php:720
+msgid "Youtube username. e.g: http://www.youtube.com/<strong>username</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:730
+msgid "Myspace username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:743
+#: ../view/admin/admin_config.php:746
+msgid "Myspace"
+msgstr ""
+
+#: ../view/admin/admin_config.php:744
+msgid "Myspace username. e.g: http://www.myspace.com/<strong>username</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:754
+msgid "Plancast username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:767
+#: ../view/admin/admin_config.php:770
+msgid "Plancast"
+msgstr ""
+
+#: ../view/admin/admin_config.php:768
+msgid "Plancast username. e.g: http://plancast.com/<strong>username</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:778
+msgid "Lazyfeed username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:791
+#: ../view/admin/admin_config.php:794
+msgid "Lazyfeed"
+msgstr ""
+
+#: ../view/admin/admin_config.php:792
+msgid "lazyfeed username. e.g: http://www.lazyfeed.com/user/<strong>username</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:803
+msgid "Sphinn username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:816
+#: ../view/admin/admin_config.php:819
+msgid "Sphinn"
+msgstr ""
+
+#: ../view/admin/admin_config.php:817
+msgid "sphinn username. e.g: http://sphinn.com/user/<strong>username</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:851
+msgid "Plurk username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:863
+#: ../view/admin/admin_config.php:866
+msgid "Plurk"
+msgstr ""
+
+#: ../view/admin/admin_config.php:864
+msgid "Plurk username. e.g: http://www.plurk.com/<strong>username</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:874
+msgid "Hyves username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:887
+#: ../view/admin/admin_config.php:890
+msgid "Hyves"
+msgstr ""
+
+#: ../view/admin/admin_config.php:888
+msgid "Hyves username. e.g: http://<strong>username</strong>.hyves.nl. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:914
+msgid "Foursquare username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:927
+#: ../view/admin/admin_config.php:930
+msgid "Foursquare"
+msgstr ""
+
+#: ../view/admin/admin_config.php:928
+msgid "Foursquare username. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:938
+msgid "Disqus username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:950
+#: ../view/admin/admin_config.php:953
+msgid "Disqus"
+msgstr ""
+
+#: ../view/admin/admin_config.php:951
+msgid "Disqus username. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:962
+msgid "Blippr username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:974
+#: ../view/admin/admin_config.php:977
+msgid "Blippr"
+msgstr ""
+
+#: ../view/admin/admin_config.php:975
+msgid "blippr username. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:985
+msgid "Runkeeper username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:999
+#: ../view/admin/admin_config.php:1002
+msgid "Runkeeper"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1000
+msgid "Runkeeper username. e.g: http://runkeeper.com/user/<strong>daveligthart</strong>/profile. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1012
+msgid "Blippy username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1025
+#: ../view/admin/admin_config.php:1028
+msgid "Blippy"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1026
+msgid "Blippy username. e.g: http://blippy.com/<strong>daveligthart</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1037
+msgid "WeRead username/id"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1050
+#: ../view/admin/admin_config.php:1053
+msgid "Weread"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1051
+msgid "Weread username/id. e.g: http://weread.com/profile/<strong>Dave/1052583991</strong>/. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1061
+msgid "Empire Avenue ticker name"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1075
+#: ../view/admin/admin_config.php:1078
+#: ../view/admin/admin_config.php:1097
+msgid "Empire Avenue"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1076
+msgid "Empire Avenue Ticker. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1086
+msgid "Empire Avenue password"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1097
+msgid "Please enter your password"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1104
+msgid "FriendFeed username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1118
+#: ../view/admin/admin_config.php:1121
+msgid "FriendFeed"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1119
+msgid "FriendFeed username. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1130
+msgid "Digg username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1143
+#: ../view/admin/admin_config.php:1146
+msgid "Digg"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1144
+msgid "Digg username. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1186
+msgid "Battlenet profile url"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1199
+#: ../view/admin/admin_config.php:1202
+msgid "Battlenet"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1200
+msgid "Battlenet profile url. e.g <strong>http://eu.battle.net/sc2/en/profile/1491154/1/David/</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1211
+msgid "Educopark profile url"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1223
+#: ../view/admin/admin_config.php:1226
+msgid "Educopark"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1224
+msgid "Educopark username. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1256
+msgid "Vimeo username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1269
+#: ../view/admin/admin_config.php:1272
+msgid "Vimeo"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1270
+msgid "Vimeo username. e.g http://www.vimeo.com/<strong>daveligthart</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1280
+msgid "Identi.ca username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1293
+#: ../view/admin/admin_config.php:1296
+msgid "Identi.ca"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1294
+msgid "Identi.ca username. e.g http://identi.ca/<strong>daveligthart</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1304
+msgid "BlogCatalog username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1316
+#: ../view/admin/admin_config.php:1319
+msgid "BlogCatalog"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1317
+msgid "BlogCatalog username. e.g http://www.blogcatalog.com/user/<strong>dligthart</strong>. Registration required"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1328
+msgid "Plaxo url"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1341
+#: ../view/admin/admin_config.php:1344
+msgid "Plaxo"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1342
+msgid "Plaxo profile url. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1376
+msgid "Delicious url"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1389
+msgid "Delicious Url"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1390
+msgid "Delicious url to monitor e.g: <strong>http://www.delicious.com/url/591d3f6192c88f638547d183355587a6</strong>"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1398
+msgid "Reddit username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1411
+#: ../view/admin/admin_config.php:1414
+msgid "Reddit"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1412
+msgid "Reddit username. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1423
+msgid "StumbleUpon username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1435
+#: ../view/admin/admin_config.php:1438
+msgid "StumbleUpon"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1436
+msgid "StumbleUpon username. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1447
+msgid "Netlog username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1460
+#: ../view/admin/admin_config.php:1463
+msgid "Netlog"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1461
+msgid "Netlog username. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1473
+msgid "99Designs.com username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1484
+#: ../view/admin/admin_config.php:1487
+msgid "99Designs"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1485
+msgid "99Designs.com username. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1495
+msgid "Ego search phrase "
+msgstr ""
+
+#: ../view/admin/admin_config.php:1506
+msgid "Ego Search"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1506
+msgid "E.g your firstname and lastname."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1513
+msgid "Quora username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1525
+#: ../view/admin/admin_config.php:1528
+msgid "Quora"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1526
+msgid "Quora username. http://www.quora.com/<strong>Dave-Ligthart</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1537
+msgid "Getglue username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1550
+#: ../view/admin/admin_config.php:1553
+msgid "Getglue"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1551
+msgid "Getglue username. http://getglue.com/<strong>daveligthart</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1561
+msgid "Google Plus Id"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1573
+#: ../view/admin/admin_config.php:1577
+msgid "Google Plus"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1574
+msgid ""
+"Google Plus ID. (note: NOT the full url, only the id) e.g: https://plus.google.com/<strong>107127911590007452165</strong>/posts. \n"
+"                  \t\tRegistration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1585
+msgid "Hunch username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1597
+#: ../view/admin/admin_config.php:1600
+#: ../view/admin/admin_config.php:1624
+msgid "Hunch"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1598
+msgid "Hunch username. http://hunch.com/<strong>daveligthart</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1609
+msgid "Pinterest username"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1621
+msgid "Pinterest"
+msgstr ""
+
+#: ../view/admin/admin_config.php:1622
+msgid "Pinterest username. http://pinterest.com/<strong>daveligthart</strong>. Registration required."
+msgstr ""
+
+#: ../view/admin/admin_config.php:1646
+msgid "Enable / Disable Social Metrics"
+msgstr ""
+
+#: ../view/admin/admin_dashboard.php:33
+msgid "check"
+msgstr ""
+
+#: ../view/admin/admin_dashboard_page.php:48
+#: ../view/admin/admin_dashboard_page.php:62
+#: ../view/admin/admin_dashboard_page.php:75
+#: ../view/admin/admin_dashboard_page.php:89
+#: ../view/admin/admin_dashboard_page.php:99
+#: ../view/admin/admin_dashboard_page.php:113
+#: ../view/admin/admin_dashboard_page.php:127
+#: ../view/admin/admin_dashboard_page.php:141
+#: ../view/admin/admin_dashboard_page.php:157
+msgid "Click to toggle"
+msgstr ""
+
+#: ../view/admin/admin_dashboard_page.php:93
+msgid "Stats - Post Views"
+msgstr ""
+
+#: ../view/admin/admin_export.php:13
+msgid "WP-Stats-Dashboard Export"
+msgstr ""
+
+#: ../view/admin/admin_export.php:30
+msgid "Export Social Trends Data"
+msgstr ""
+
+#: ../view/admin/admin_export.php:35
+msgid "Export to excel"
+msgstr ""
+
+#: ../view/admin/admin_export.php:37
+msgid "Excel"
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_blacklisted.php:7
+msgid "No"
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_blacklisted.php:18
+msgid "Yes"
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_blacklisted.php:22
+msgid "Blacklisted:"
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_blacklisted.php:30
+msgid "This means that you might have trouble delivering mail to some clients from your server ip address."
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_blacklisted.php:31
+msgid "Your server ip is: "
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_blacklisted.php:38
+msgid "Your server ip "
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_blacklisted.php:39
+msgid "is not listed on a spam list."
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_engagement.php:13
+msgid "Engagement:"
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_engagement.php:20
+msgid ""
+"The engagement is too low. Add a comment form to allow visitors to respond to your articles. This will improve the unique content on your website which\n"
+"\t\t\t\t\tgives you a better ranking in google."
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_engagement.php:25
+msgid ""
+"The engagement is too low.. Try to make commenting on your site more user friendly. Comments will add to the unique content on your website which gives you a better\n"
+"\t\t\t\t\tranking in Google."
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_facebook.php:21
+msgid "Facebook Homepage Likes"
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_facebook.php:27
+msgid "The number of homepage likes is too small. Try placing a Facebook like button on your homepage or put it in a more prominent position."
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_ios.php:8
+msgid "OK"
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_ios.php:20
+msgid "iOS Stats Connected"
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_ios.php:28
+msgid "Buy the ipad/iphone stats dashboard app<br/><br/> for just <strong>1 USD</strong> <br/><br/>from"
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_ios.php:31
+msgid "From now on you can view your social media <br/>and WordPress stats on your iOS Device"
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_ios.php:34
+msgid "You supported us by buying the <a href=\"http://wpsdapp.com\" target=\"_blank\">WPSDApp</a>. We salute you! <br/><a href=\"http://twitter.com/wpsdapp\" target=\"_blank\">Follow us on Twitter</a><br/><a href=\"http://www.facebook.com/wpsdapp\" target=\"_blank\">Like us on Facebook</a>."
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_pagerank.php:12
+msgid "Pagerank:"
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_pagerank.php:19
+msgid "Your pagerank is quite low. Have you thought about <a href=\"http://www.daveligthart.com/products/\" target=\"_blank\" style=\"font-weight:bold;\" title=\"SEO, SMO, Performance optimization service\">optimizing</a> / SEO / SMO / Performance ? This will get you a better organic ranking in google."
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_pagerank.php:25
+msgid ""
+"Your pagerank is fine. Have you thought about <a href=\"http://www.daveligthart.com/products/\" target=\"_blank\" style=\"font-weight:bold;\"  title=\"SEO, SMO, Performance optimization service\">optimizing</a> \n"
+"\t\t\t\tyour social media profiles to get more visitors and improve interaction with your audience?"
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_twitter.php:20
+msgid "Twitter F/F ratio:"
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_twitter.php:39
+msgid "Try to <a href=\"http://www.theunfollowapp.com\" target=\"_blank\" title=\"The unfollow app\" rel=\"external\">unfollow as many users as possible</a> to improve your twitter profile quality."
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_twitter.php:52
+msgid "It seems you do not own a <a href=\"http://twitter.com\" target=\"_blank\" title=\"Twitter\">twitter.com</a> profile. Create one to improve interaction with your audience."
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_twitter_mentions.php:19
+msgid "Your blog has been mentioned"
+msgstr ""
+
+#: ../view/admin/admin_optimize_widget_twitter_mentions.php:19
+msgid "times over the last few weeks.."
+msgstr ""
+
+#: ../view/admin/admin_profile_finder.php:11
+msgid "WP-Stats-Dashboard Profile Finder"
+msgstr ""
+
+#: ../view/admin/admin_profile_finder.php:34
+msgid "Profile Finder"
+msgstr ""
+
+#: ../view/admin/admin_profile_finder.php:39
+msgid "Enter regularly used profile name:"
+msgstr ""
+
+#: ../view/admin/admin_profile_finder.php:43
+msgid "Find"
+msgstr ""
+
+#: ../view/admin/admin_profile_finder.php:55
+msgid "Select profiles to save."
+msgstr ""
+
+#: ../view/admin/admin_profile_finder.php:60
+msgid "Profiles are saved to settings."
+msgstr ""
+
+#: ../view/admin/admin_profile_finder.php:66
+msgid "Save"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:5
+msgid "WPSD - RPC Client"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:7
+msgid "For testing purposes only."
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:19
+msgid "getKey username"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:22
+msgid "getKey password"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:26
+msgid "Get Key"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:30
+msgid "getStats key"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:43
+msgid "getStats type"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:47
+msgid "getStatsByDate type Y-m-d"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:52
+msgid "Get Stats By Date"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:55
+msgid "Get Stats"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:64
+msgid "getMetrics"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:66
+msgid "Get Metrics"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:76
+msgid "getStatsByYearAndMonth"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:79
+msgid "Get Stats By Year And Month"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:90
+msgid "getStatsByDateRange"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:92
+msgid "Type"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:96
+msgid "Date From"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:100
+msgid "Date To"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:106
+msgid "Get Stats By Date Range"
+msgstr ""
+
+#: ../view/admin/admin_rpc.php:122
+msgid "Clear Server Cache"
+msgstr ""
+
+#: ../view/admin/admin_trend.php:9
+msgid "Select trend"
+msgstr ""
+
+#: ../view/admin/admin_user_profile.php:40
+msgid "WPSD - User Config"
+msgstr ""
+
+#: ../view/admin/admin_user_profile.php:45
+msgid "Klout"
+msgstr ""
+
+#: ../view/admin/admin_user_profile.php:50
+msgid "Please enter your Klout username. E.g Last part of the url: http://klout.com/<strong>daveligthart</strong>"
+msgstr ""
+
+#: ../view/admin/admin_user_profile.php:60
+msgid "Please enter your Twitter username. E.g Last part of the url: http://twitter.com/<strong>daveligthart</strong>"
+msgstr ""
+
+#: ../view/admin/admin_user_profile.php:66
+msgid "WPSD - User Metrics"
+msgstr ""
+
+#: ../view/admin/admin_user_profile.php:70
+msgid "Total Articles"
+msgstr ""
+
+#: ../view/admin/admin_user_profile.php:74
+msgid "Total Comments Received"
+msgstr ""
+
+#: ../view/admin/admin_user_profile.php:78
+msgid "Total Comments Placed"
+msgstr ""
+
+#: ../view/admin/admin_user_profile.php:86
+msgid "Twitter F/F Ratio"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:12
+msgid "Pagerank"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:13
+msgid "Alexa"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:14
+msgid "Technorati"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:15
+msgid "Compete"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:16
+msgid "Mozrank"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:17
+msgid "Postrank"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:18
+msgid "Twitter Followers"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:20
+msgid "LinkedIn Connections"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:21
+msgid "Backlinks"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:22
+msgid "SocialGraph Incoming"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:23
+msgid "Bit.ly Clicks"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:24
+msgid "Bing link Count"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:26
+msgid "FeedBurner Circulation"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:27
+msgid "Last.fm Friends"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:28
+msgid "Facebook Fans"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:29
+msgid "StumbleUpon Views"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:31
+msgid "Youtube Video Views"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:32
+msgid "Myspace Friends"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:34
+msgid "Runkeeper Total Distance"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:35
+msgid "Google Plus Followers"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:36
+msgid "PeerIndex"
+msgstr ""
+
+#: ../view/admin/blocks/select-trend.php:37
+msgid "Pinterest Followers"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:6
+msgid "We are not asking for a donation but please support us by"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:9
+msgid "You are awesome!"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:13
+msgid "Send your friends a tweet about WPSD"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:14
+msgid "Telling your friends about this great plugin with a tweet:"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:16
+msgid "Awesome+social+media+stats+plugin"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:16
+msgid "Send a tweet"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:16
+msgid "Tweet"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:19
+msgid "Follow us on twitter"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:19
+msgid "Get updates on Twitter!"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:21
+msgid "Follow Dave Ligthart on Twitter"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:22
+msgid "Follow"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:25
+msgid "Rate us on WordPress"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:26
+msgid "By giving "
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:27
+#: ../view/admin/blocks/sidebar.php:30
+msgid "Give a great rating"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:27
+msgid "wp-stats-dashboard"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:28
+msgid "an awesome rating:"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:30
+msgid "Rate"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:33
+msgid "Buy our app"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:33
+msgid "By buying our app"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:34
+msgid "Go to App"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:44
+msgid "Get the NEW WPSD iOS App"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:47
+msgid "Your stats on the iPad or iPhone"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:49
+#: ../view/admin/blocks/sidebar.php:54
+msgid "Link to WPSD iPad and iPhone App Product Page - Now available from the App Store."
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:50
+msgid "<strong>Now Available</strong> from the App Store"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:55
+msgid "WPSD iOS App / ipad and iphone"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:59
+msgid "More info on"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:59
+msgid "For more info go to WPSDAPP.com"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:65
+msgid "Too many social media sites to connect?"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:69
+msgid "Let us connect all listed social media sites for you. You'll be up and running in no time. "
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:73
+msgid "Optimize your WPSD"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:74
+msgid "WPSD optimization"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:81
+msgid "iGoogle Gadget"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:85
+msgid "iGoogle"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:89
+msgid "Link to Social Metrics iGoogle Gadget"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:90
+msgid "WPSD iGoogle Gadget"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:98
+msgid "Instructions: How to get the plugin to work"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:103
+msgid "Install the <a href=\"http://wordpress.org/extend/plugins/jetpack/\" target=\"_blank\" title=\"Download the Jetpack plugin from WordPress.com\">WordPress.com</a> jetpack plugin to start tracking your stats."
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:106
+msgid "Create or login to your account at"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:109
+msgid "Connect to WordPress.com through jetpack. Click on the huge banner that is displayed above when your blog is not connected."
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:113
+msgid "Enter your wordpress.com username and password on the wp-stats-dashboard settings page."
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:118
+msgid "You're all set"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:125
+msgid "Server Check"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:135
+msgid "Safe mode: on"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:135
+msgid "Safe mode: off"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:139
+msgid "Curl installed: yes"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:139
+msgid "Curl installed: no"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:143
+msgid "Stats plugin: installed"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:143
+msgid "Stats plugin: <a href=\"http://wordpress.org/extend/plugins/jetpack/\" target=\"_blank\" title=\"Install the WordPress.com Jetpack plugin\">not installed</a>"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:147
+msgid "Cache directory writable: yes"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:147
+msgid "Cache directory writable: no"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:155
+msgid "wp_footer in footer.php found: <a href=\"http://codex.wordpress.org/Theme_Development\" target=\"_blank\" title=\"Theme development documentation\">no</a>"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:155
+msgid "wp_footer in footer.php found: yes"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:167
+msgid "Version"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:171
+msgid "DB version: "
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:180
+msgid "Plugin by"
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:184
+msgid ": If you like my work, hire me! For custom wordpress plugin and theme development."
+msgstr ""
+
+#: ../view/admin/blocks/sidebar.php:186
+msgid "More info"
+msgstr ""
+
